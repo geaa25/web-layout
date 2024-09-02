@@ -1,0 +1,24 @@
+    .container {
+        background-color: rgb(17, 186, 186);
+        padding: 10px;
+        overflow: hidden;
+        color:rgb(106, 117, 239);
+        text-indent: 25px;
+        text-transform: unpercase;
+        letter-spacing: 10px;
+        text-decoration: underline;
+        word-spacing: 20px;
+        line-height: 25px;
+    }
+    .h1{
+        text-align: center;
+        background-color: rgb(187, 109, 221);
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 25px;
+        font-variant: small-caps;
+        font-style: oblique;
+    }
+    

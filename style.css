@@ -1,0 +1,60 @@
+            ul li {
+                display: inline-block;
+                margin-right: 20px;
+                border: 1px solid blue;
+                background-color: bisqued;
+                padding: 10px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            ul li:hover{
+                background-color: aliceblue;
+            }
+            .header {
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            .container {
+                background-color: rgb(17, 186, 186);
+                padding: 10px;
+                overflow: hidden;
+                color:lawngreen;
+                text-indent: 25px;
+                text-transform: unpercase;
+                letter-spacing: 10px;
+                text-decoration: underline;
+                word-spacing: 20px;
+                line-height: 25px;
+                
+            }
+
+            .footer {
+                text-align: center;
+                background-color: rgb(187, 109, 221);
+                padding: 10px;
+                position:fixed;
+                bottom: 0;
+                width: 100%;
+                font-size: 25px;
+                font-variant: small-caps;
+                font-style: oblique;
+            }
+            .floot-left{
+                width: 50px;
+                height: 50px;
+                float: right; 
+            }
+            body{
+                background-image: url(img.jpg);
+                margin:0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .red{
+                color:red;
+            }
+            

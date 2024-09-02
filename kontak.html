@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman kontak</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            font-family: 'open sans','sans-serif';
+        }
+
+        .container{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 10px rgba(blue);
+            border-radius: 10px;
+        }
+        .container h1{
+            text-align: center;
+            color: black;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            border-bottom: 4px solid #292929;
+        }
+        .container label{
+            text-align: center;
+            color: black;
+        }
+        .container form input{
+            width: calc(100%-20px);
+            padding: 8px 10px;
+            margin-bottom: 15px;
+            border: none;
+            background-color: bisque;
+            border-bottom: 2px solid #292929;
+            color: #fff;
+            font-size: 20px;
+        }
+        .container form button{
+            width: 100%;
+            padding: 5px 0;
+            border: none;
+            background-color: deepskyblue;
+            font-size: 18px;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>KONTAK KAMI</h1>
+    <form>
+        <label>Nama</label><br>
+        <input type="text"><br>
+        <label>Email</label><br>
+        <input type="password"><br>
+        <label>Password</label><br>
+        <input type="text"><br>
+        <button>kirim pesan</button>
+    </form>
+    </div>
+</body>
+</html>
